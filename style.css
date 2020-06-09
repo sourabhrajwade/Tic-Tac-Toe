@@ -1,0 +1,66 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+.container {
+    height: 100vh;
+    width: 100vh;
+}   
+.row {
+    margin: 20px;
+    height:100%;
+    width: 100%;
+    display: grid;
+    
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    cursor: pointer;
+    
+}  
+.item {
+    height: 30vh;
+    width: 30vh;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 10rem;
+    color: black;
+}
+.item:hover {
+    color: grey;
+}
+.hide {
+    display: none;
+}
+.winner {
+     height: 100vh;
+    width: 100vh;
+    flex-direction: column;
+
+}
+.winrow {
+    text-align: center;
+    grid-template-columns: auto;
+    height: 100%;
+}
+.win {
+    height: 20vh;
+    width: 20vh;
+    width: 100%;
+    font-size: 5rem;
+    border: 0px;
+}
+.play {
+    border: 0px;
+    height: 50%;
+    width: 50%;
+}
+
